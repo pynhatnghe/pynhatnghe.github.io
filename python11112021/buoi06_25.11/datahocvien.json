@@ -1,0 +1,15 @@
+{
+    "hoten": "L\u00ea H\u1ea3i Nam",
+    "tuoi": 19,
+    "dien_thoai": 989789789,
+    "khoa_dang_hoc": [
+        {
+            "ten": "Python",
+            "ngaykg": "11/11/2021"
+        },
+        {
+            "ten": "WebAPI",
+            "ngaykg": "29/11/2021"
+        }
+    ]
+}
