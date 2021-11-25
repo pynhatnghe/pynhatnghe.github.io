@@ -1,0 +1,322 @@
+[
+    {
+        "ma_tinh": 1,
+        "ten_tinh": "Ti\u1ec1n Giang",
+        "so_danh_nghiep": 10774
+    },
+    {
+        "ma_tinh": 2,
+        "ten_tinh": "H\u01b0ng Y\u00ean",
+        "so_danh_nghiep": 12376
+    },
+    {
+        "ma_tinh": 3,
+        "ten_tinh": "H\u00e0 N\u1ed9i",
+        "so_danh_nghiep": 282047
+    },
+    {
+        "ma_tinh": 4,
+        "ten_tinh": "TP H\u1ed3 Ch\u00ed Minh",
+        "so_danh_nghiep": 463484
+    },
+    {
+        "ma_tinh": 5,
+        "ten_tinh": "C\u00e0 Mau",
+        "so_danh_nghiep": 10807
+    },
+    {
+        "ma_tinh": 6,
+        "ten_tinh": "\u0110\u1eafc L\u1eafc",
+        "so_danh_nghiep": 11098
+    },
+    {
+        "ma_tinh": 7,
+        "ten_tinh": "Nam \u0110\u1ecbnh",
+        "so_danh_nghiep": 12144
+    },
+    {
+        "ma_tinh": 8,
+        "ten_tinh": "Qu\u1ea3ng Ninh",
+        "so_danh_nghiep": 19784
+    },
+    {
+        "ma_tinh": 9,
+        "ten_tinh": "\u0110\u1eafk N\u00f4ng",
+        "so_danh_nghiep": 5411
+    },
+    {
+        "ma_tinh": 10,
+        "ten_tinh": "\u0110\u00e0 N\u1eb5ng",
+        "so_danh_nghiep": 40809
+    },
+    {
+        "ma_tinh": 11,
+        "ten_tinh": "H\u1ea3i D\u01b0\u01a1ng",
+        "so_danh_nghiep": 16881
+    },
+    {
+        "ma_tinh": 12,
+        "ten_tinh": "Long An",
+        "so_danh_nghiep": 18924
+    },
+    {
+        "ma_tinh": 13,
+        "ten_tinh": "B\u1ebfn Tre",
+        "so_danh_nghiep": 8237
+    },
+    {
+        "ma_tinh": 14,
+        "ten_tinh": "\u0110\u1ed3ng Th\u00e1p",
+        "so_danh_nghiep": 10543
+    },
+    {
+        "ma_tinh": 15,
+        "ten_tinh": "V\u0129nh Long",
+        "so_danh_nghiep": 7261
+    },
+    {
+        "ma_tinh": 16,
+        "ten_tinh": "Ki\u00ean Giang",
+        "so_danh_nghiep": 17543
+    },
+    {
+        "ma_tinh": 17,
+        "ten_tinh": "Tr\u00e0 Vinh",
+        "so_danh_nghiep": 5652
+    },
+    {
+        "ma_tinh": 18,
+        "ten_tinh": "S\u00f3c Tr\u0103ng",
+        "so_danh_nghiep": 6441
+    },
+    {
+        "ma_tinh": 19,
+        "ten_tinh": "B\u1eafc Ninh",
+        "so_danh_nghiep": 17814
+    },
+    {
+        "ma_tinh": 20,
+        "ten_tinh": "Thanh Ho\u00e1",
+        "so_danh_nghiep": 24742
+    },
+    {
+        "ma_tinh": 21,
+        "ten_tinh": "V\u0169ng T\u00e0u",
+        "so_danh_nghiep": 18479
+    },
+    {
+        "ma_tinh": 22,
+        "ten_tinh": "\u0110\u1ed3ng Nai",
+        "so_danh_nghiep": 42068
+    },
+    {
+        "ma_tinh": 23,
+        "ten_tinh": "B\u00ecnh D\u01b0\u01a1ng",
+        "so_danh_nghiep": 44212
+    },
+    {
+        "ma_tinh": 24,
+        "ten_tinh": "Th\u00e1i Nguy\u00ean",
+        "so_danh_nghiep": 9749
+    },
+    {
+        "ma_tinh": 25,
+        "ten_tinh": "Th\u00e1i B\u00ecnh",
+        "so_danh_nghiep": 10979
+    },
+    {
+        "ma_tinh": 26,
+        "ten_tinh": "C\u1ea7n Th\u01a1",
+        "so_danh_nghiep": 19697
+    },
+    {
+        "ma_tinh": 27,
+        "ten_tinh": "Ngh\u1ec7 An",
+        "so_danh_nghiep": 23232
+    },
+    {
+        "ma_tinh": 28,
+        "ten_tinh": "Hu\u1ebf",
+        "so_danh_nghiep": 9875
+    },
+    {
+        "ma_tinh": 29,
+        "ten_tinh": "B\u00ecnh Ph\u01b0\u1edbc",
+        "so_danh_nghiep": 11134
+    },
+    {
+        "ma_tinh": 30,
+        "ten_tinh": "Qu\u1ea3ng Nam",
+        "so_danh_nghiep": 14115
+    },
+    {
+        "ma_tinh": 31,
+        "ten_tinh": "Qu\u1ea3ng Ng\u00e3i",
+        "so_danh_nghiep": 10422
+    },
+    {
+        "ma_tinh": 32,
+        "ten_tinh": "Ninh Thu\u1eadn",
+        "so_danh_nghiep": 4919
+    },
+    {
+        "ma_tinh": 33,
+        "ten_tinh": "L\u00e0o Cai",
+        "so_danh_nghiep": 6789
+    },
+    {
+        "ma_tinh": 34,
+        "ten_tinh": "H\u1ea3i Ph\u00f2ng",
+        "so_danh_nghiep": 44792
+    },
+    {
+        "ma_tinh": 35,
+        "ten_tinh": "An Giang",
+        "so_danh_nghiep": 12966
+    },
+    {
+        "ma_tinh": 36,
+        "ten_tinh": "Ph\u00fa Th\u1ecd",
+        "so_danh_nghiep": 9905
+    },
+    {
+        "ma_tinh": 37,
+        "ten_tinh": "T\u00e2y Ninh",
+        "so_danh_nghiep": 11313
+    },
+    {
+        "ma_tinh": 38,
+        "ten_tinh": "Kh\u00e1nh H\u00f2a",
+        "so_danh_nghiep": 22313
+    },
+    {
+        "ma_tinh": 39,
+        "ten_tinh": "Ph\u00fa Y\u00ean",
+        "so_danh_nghiep": 6580
+    },
+    {
+        "ma_tinh": 40,
+        "ten_tinh": "H\u00f2a B\u00ecnh",
+        "so_danh_nghiep": 6472
+    },
+    {
+        "ma_tinh": 41,
+        "ten_tinh": "Tuy\u00ean Quang",
+        "so_danh_nghiep": 3763
+    },
+    {
+        "ma_tinh": 42,
+        "ten_tinh": "Lai Ch\u00e2u",
+        "so_danh_nghiep": 3105
+    },
+    {
+        "ma_tinh": 43,
+        "ten_tinh": "H\u1eadu Giang",
+        "so_danh_nghiep": 5597
+    },
+    {
+        "ma_tinh": 44,
+        "ten_tinh": "L\u00e2m \u0110\u1ed3ng",
+        "so_danh_nghiep": 15512
+    },
+    {
+        "ma_tinh": 45,
+        "ten_tinh": "L\u1ea1ng S\u01a1n",
+        "so_danh_nghiep": 5851
+    },
+    {
+        "ma_tinh": 46,
+        "ten_tinh": "H\u00e0 Nam",
+        "so_danh_nghiep": 7235
+    },
+    {
+        "ma_tinh": 47,
+        "ten_tinh": "B\u1eafc C\u1ea1n",
+        "so_danh_nghiep": 2323
+    },
+    {
+        "ma_tinh": 48,
+        "ten_tinh": "B\u00ecnh \u0110\u1ecbnh",
+        "so_danh_nghiep": 14219
+    },
+    {
+        "ma_tinh": 49,
+        "ten_tinh": "Cao B\u1eb1ng",
+        "so_danh_nghiep": 3582
+    },
+    {
+        "ma_tinh": 50,
+        "ten_tinh": "S\u01a1n La",
+        "so_danh_nghiep": 5408
+    },
+    {
+        "ma_tinh": 51,
+        "ten_tinh": "Qu\u1ea3ng B\u00ecnh",
+        "so_danh_nghiep": 8540
+    },
+    {
+        "ma_tinh": 52,
+        "ten_tinh": "Qu\u1ea3ng Tr\u1ecb",
+        "so_danh_nghiep": 7041
+    },
+    {
+        "ma_tinh": 53,
+        "ten_tinh": "Gia Lai",
+        "so_danh_nghiep": 9656
+    },
+    {
+        "ma_tinh": 54,
+        "ten_tinh": "B\u1eafc Giang",
+        "so_danh_nghiep": 11917
+    },
+    {
+        "ma_tinh": 55,
+        "ten_tinh": "H\u00e0 T\u0129nh",
+        "so_danh_nghiep": 10865
+    },
+    {
+        "ma_tinh": 56,
+        "ten_tinh": "Ninh B\u00ecnh",
+        "so_danh_nghiep": 8021
+    },
+    {
+        "ma_tinh": 57,
+        "ten_tinh": "B\u00ecnh Thu\u1eadn",
+        "so_danh_nghiep": 11317
+    },
+    {
+        "ma_tinh": 58,
+        "ten_tinh": "Kon Tum",
+        "so_danh_nghiep": 4777
+    },
+    {
+        "ma_tinh": 59,
+        "ten_tinh": "V\u0129nh Ph\u00fac",
+        "so_danh_nghiep": 13031
+    },
+    {
+        "ma_tinh": 60,
+        "ten_tinh": "B\u1ea1c Li\u00eau",
+        "so_danh_nghiep": 5505
+    },
+    {
+        "ma_tinh": 61,
+        "ten_tinh": "Y\u00ean B\u00e1i",
+        "so_danh_nghiep": 4972
+    },
+    {
+        "ma_tinh": 62,
+        "ten_tinh": "\u0110i\u1ec7n Bi\u00ean",
+        "so_danh_nghiep": 3194
+    },
+    {
+        "ma_tinh": 63,
+        "ten_tinh": "H\u00e0 Giang",
+        "so_danh_nghiep": 4592
+    },
+    {
+        "ma_tinh": 64,
+        "ten_tinh": "Ch\u01b0a r\u00f5",
+        "so_danh_nghiep": 61991
+    }
+]

@@ -1,0 +1,21 @@
+Video hướng dẫn: https://www.youtube.com/watch?v=jOUUqDGogAo
+Bước 1: pip install virtualenv
+
+Bước 2: Tạo môi trường ảo cho dự án mình
+- vào thư mục project
+- Gõ lệnh python -m venv <thu_muc_mt_ao>
+
+Bước 3: Active môi trường
+venv\Scripts\activate
+Kết quả chạy thành công sẽ ra dạng:
+(venv)
+
+Bước 4: Hủy active
+deactivate
+--------------
+Xuất các thư viện cần dùng trong môi trường của project:
+pip freeze > requirements.txt
+
+Dựng lại môi trường ảo ntn?
+- B1: Start/activate virtual environment
+- B2: Gõ lệnh pip install -r requirements.txt
