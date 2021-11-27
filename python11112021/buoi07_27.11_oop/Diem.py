@@ -28,11 +28,6 @@ class Diem:
 
 
 # Demo
-# A = Diem()
-#A.x = 7
-#A.y = 9
-# A.dat_vi_tri(7, 9)
-# print(A.x, A.y)
 B = Diem(17, 23)
 print(B.x, B.y)
 print(B)    # Gọi hàm __str__
