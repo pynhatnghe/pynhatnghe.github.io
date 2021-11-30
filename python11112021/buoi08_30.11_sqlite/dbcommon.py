@@ -3,7 +3,7 @@ import sqlite3
 
 class MyDatabase:
     @staticmethod
-    def sql_connection(self):
+    def sql_connection():
         try:
             return sqlite3.connect("MyDatabase.db")
         except Exception as ex:
@@ -11,7 +11,7 @@ class MyDatabase:
             return None
 
     @staticmethod
-    def create_table(self, connection, sql_statetement):
+    def create_table(connection, sql_statetement):
         try:
             cursor = connection.cursor()
             cursor.execute(sql_statetement)
