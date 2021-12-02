@@ -97,5 +97,20 @@ bang = Button(button_frame, text="=", width=9, height=3).grid(
 cong = Button(button_frame, text="+", width=9, height=3).grid(
     row=4, column=3, padx=1, pady=1)
 
+# Gắn thêm menu
+menuBar = Menu(root)
+mnuSystem = Menu(menuBar, tearoff=0)
+mnuSystem.add_command(label="New")
+mnuSystem.add_command(label="Open")
+mnuSystem.add_command(label="Save")
+mnuSystem.add_separator()
+mnuSystem.add_command(label="Quit", command=root.destroy)
+menuBar.add_cascade(label="System", menu=mnuSystem)
+mnuTool = Menu(menuBar, tearoff=0)
+mnuTool.add_command(label="Copy")
+menuBar.add_cascade(label="Tools", menu=mnuTool)
+
+root.config(menu=menuBar)
+
 # RUN
 root.mainloop()
