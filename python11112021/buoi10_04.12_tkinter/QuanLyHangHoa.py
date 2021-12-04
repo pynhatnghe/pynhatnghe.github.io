@@ -20,9 +20,6 @@ menuBar.add_cascade(label="Quản lý Hàng hóa", menu=mnuHangHoa)
 root.config(menu=menuBar)
 
 
-# Main
-root.mainloop()
-
 # Create loai, hanghoa
 
 
@@ -33,7 +30,7 @@ def create_loai(connect):
         TenLoai varchar(40)
     )
     '''
-    MyDatabase.create_table(connect, sql)
+    MyDatabase.run_statement(connect, sql)
 
 
 def create_hanghoa(connect):
@@ -48,10 +45,14 @@ def create_hanghoa(connect):
         FOREIGN KEY (MaLoai) REFERENCES Loai(MaLoai)
     )
     '''
-    MyDatabase.create_table(connect, sql)
+    MyDatabase.run_statement(connect, sql)
 
 
 myconnection = MyDatabase.sql_connection()
 if myconnection:
     create_loai(myconnection)
     create_hanghoa(myconnection)
+
+
+# Main
+root.mainloop()
