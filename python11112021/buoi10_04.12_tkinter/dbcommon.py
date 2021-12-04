@@ -35,7 +35,7 @@ class MyDatabase:
         try:
             cursor = connection.cursor()
             cursor.execute(sql_statetement)
-            return cursor.fetch_all()
+            return cursor.fetchall()
         except Exception as ex:
             print(ex)
             return None

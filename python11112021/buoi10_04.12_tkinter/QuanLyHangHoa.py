@@ -57,6 +57,7 @@ myconnection = MyDatabase.sql_connection()
 if myconnection:
     create_loai(myconnection)
     create_hanghoa(myconnection)
+    myconnection.close()
 
 
 # Main
