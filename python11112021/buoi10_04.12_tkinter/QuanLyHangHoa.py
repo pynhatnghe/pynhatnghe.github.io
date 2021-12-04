@@ -1,6 +1,7 @@
 from tkinter import *
 from dbcommon import MyDatabase
 import ManHinhThemLoai as mhThemLoai
+import ManHinhThemHangHoa as mhThemHangHoa
 from functools import partial
 
 root = Tk()
@@ -11,6 +12,7 @@ root.title("Quản lý hàng hóa")
 
 # Xử lý menu
 xulyMenuThemLoai = partial(mhThemLoai.openManHinhThemLoai, root)
+xulyMenuThemHangHoa = partial(mhThemHangHoa.openManHinhThemHangHoa, root)
 
 # Menu
 menuBar = Menu(root)
@@ -19,7 +21,7 @@ mnuLoai.add_command(label="Thêm loại", command=xulyMenuThemLoai)
 mnuLoai.add_command(label="Quit", command=root.destroy)
 menuBar.add_cascade(label="Quản lý loại", menu=mnuLoai)
 mnuHangHoa = Menu(menuBar, tearoff=0)
-mnuHangHoa.add_command(label="Hàng hóa")
+mnuHangHoa.add_command(label="Hàng hóa", command=xulyMenuThemHangHoa)
 menuBar.add_cascade(label="Quản lý Hàng hóa", menu=mnuHangHoa)
 
 root.config(menu=menuBar)
