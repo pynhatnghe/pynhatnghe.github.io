@@ -15,3 +15,8 @@ for line in lines:
         index = line.index(filter) + len(filter)
         data_needed = line[index:]
         print(data_needed)
+
+
+# VD2:
+# subprocess.run(["ping", "nhatnghe.com"])
+subprocess.run("ping nhatnghe.com", shell=True)
