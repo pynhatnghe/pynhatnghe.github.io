@@ -45,9 +45,9 @@ tr:nth-child(even) {
   {% for item in data.hang_hoa %}
     <tr>
       <td>{{ item.ten }}</td>
-      <td>{{ item.so_luong }}</td>
-      <td>{{ item.gia }} đ</td>
-      <td>{{ item.so_luong * item.gia}} đ</td>
+      <td style="text-align: center">{{ item.so_luong }}</td>
+      <td style="text-align: right">{{ item.gia }} đ</td>
+      <td style="text-align: right">{{ item.so_luong * item.gia}} đ</td>
     </tr>
   {% endfor%}
 </table>
