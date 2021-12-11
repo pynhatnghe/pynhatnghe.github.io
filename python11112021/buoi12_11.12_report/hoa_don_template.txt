@@ -1,0 +1,10 @@
+            HÓA ĐƠN THANH TOÁN
+- Khách hàng: {{ data.ho_ten }}
+- Số điện thoại: {{ data.dien_thoai }}
+    DANH SÁCH HÀNG MUA
+{# Ghi chú vùng hiển thị thông tin hàng mua #}
+{% for item in data.hang_hoa %}
+    {{ item.so_luong }} x {{ item.ten }} - {{ item.gia }} đ = {{ item.so_luong * item.gia}} đ.
+{% endfor%}
+        Tổng tiền: {{ data.tong_tien }} đ.
+    Cảm ơn quý khách đã tin dùng dịch vụ của chúng tôi.
