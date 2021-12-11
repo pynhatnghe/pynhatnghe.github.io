@@ -1,5 +1,7 @@
+from docx2pdf import convert
 from docx import Document
 from docx.shared import Inches
+import os
 
 # Tạo mới file document
 document = Document()
@@ -42,3 +44,10 @@ for mark in marks:
     new_row_cells[2].text = str(mark["sotc"])
 
 document.save('bangdiem.docx')
+
+
+# Để convert docx to word cần cài: pip install docx2pdf
+# from docx2pdf import convert
+current_dir = os.getcwd()
+convert(os.path.join(current_dir, 'bangdiem.docx'),
+        os.path.join(current_dir, 'bangdiem.pdf'))
