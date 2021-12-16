@@ -1,15 +1,37 @@
 # pip install fastapi
 # pip install uvicorn
+# pip install python-multipart # Liên quan tới upload file
 
+from typing import cast
 from KhachHang import khach_hang
-from fastapi import FastAPI
+from fastapi import FastAPI, File, UploadFile
 import os
 import json
+import shutil
 
 app = FastAPI()
 
 
+# Lấy thư mục hiện tại chứa file đang chạy
+UPLOAD_DIRECTORY = os.getcwd()
+
+
+@app.post("/images/single")
+def upload_single_file(image: UploadFile = File(...)):
+    try:
+        filename = os.path.join(UPLOAD_DIRECTORY, "data", image.filename)
+        with open(filename, "wb") as mybinfile:
+            shutil.copyfileobj(image.file, mybinfile)
+
+        return {"success": True, "filename": image.filename}
+    except Exception as ex:
+        print(ex)
+        return {"success": False}
+
+
 # Chạy: uvicorn main:app
+
+
 @app.get("/")
 def api_root():
     return {"message": "Welcome to FastAPI"}
