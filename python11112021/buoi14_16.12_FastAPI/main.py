@@ -8,12 +8,29 @@ from fastapi import FastAPI, File, UploadFile
 import os
 import json
 import shutil
+from typing import List
 
 app = FastAPI()
 
 
 # Lấy thư mục hiện tại chứa file đang chạy
 UPLOAD_DIRECTORY = os.getcwd()
+
+
+@app.post("/images/multiple")
+def upload_multiple_file(images: List[UploadFile] = File(...)):
+    try:
+        filenames = []
+        for image in images:
+            filename = os.path.join(UPLOAD_DIRECTORY, "data", image.filename)
+            with open(filename, "wb") as mybinfile:
+                shutil.copyfileobj(image.file, mybinfile)
+            filenames.append(image.filename)
+
+        return {"success": True, "filename": filenames}
+    except Exception as ex:
+        print(ex)
+        return {"success": False}
 
 
 @app.post("/images/single")
