@@ -11,7 +11,10 @@ a[1] = 9
 print(a)
 
 # Tạo mảng 2 chiều 2 dòng, 3 cột
-b = np.array([[1, 2, 3], [4, 5, 6]])
+b = np.array([
+    [1, 2, 3],
+    [4, 5, 6]
+])
 print("Shape", b.shape)
 print(b)
 print(b[0, 0], b[1, 2])
@@ -42,5 +45,5 @@ print(ff)
 Mảng 1 chiều: a[index]
 Mảng 2 chiều: b[row_index, col_index]
 '''
-fslice = f[:3, 1:3]
+fslice = f[:3, 1:3]  # Chú ý chỉ số cuối không bằng (giống list)
 print(fslice)
