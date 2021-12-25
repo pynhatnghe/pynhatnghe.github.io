@@ -15,10 +15,19 @@ with connection:
 
     # Chèn mới 1 user vào trong database, bảng user
     with connection.cursor() as cursor:
-        sql1 = "INSERT INTO users(email, password) VALUES('admin', '123')"
-        cursor.execute(sql1)
+        try:
+            sql1 = "INSERT INTO users(email, password) VALUES('admin@nn.com', '123')"
+            cursor.execute(sql1)
 
-        sql2 = "INSERT INTO users(email, password) VALUES(%s, %s)"
-        cursor.execute(sql2, ('test', '123456'))
+            sql2 = "INSERT INTO users(email, password) VALUES(%s, %s)"
+            cursor.execute(sql2, ('test@nn.com', '123456'))
 
-        connection.commit()
+            connection.commit()
+        except Exception as ex:
+            print(ex)
+
+    with connection.cursor() as cursor:
+        sql = "SELECT id, email FROM users"
+        cursor.execute(sql)
+        result = cursor.fetchall()
+        print(result)
