@@ -23,7 +23,7 @@ def LaSoNguyenTo(so_nguyen: int):
 dem_so_luong_so_nguyen_to = 0
 bien_so_chay = 1
 while dem_so_luong_so_nguyen_to < N:
-    # XỬ lý In so nguyen to ke tiep
+    # Xử lý In so nguyen to ke tiep
     if LaSoNguyenTo(bien_so_chay) == True:
         print(bien_so_chay)
         dem_so_luong_so_nguyen_to += 1
