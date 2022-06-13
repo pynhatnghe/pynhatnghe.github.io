@@ -13,10 +13,15 @@ for item in timestamps:
   # print(temp,  hour, minute)
 
   khung_gio.add(hour)
-  if hour in thong_ke:
-    thong_ke[hour] += 1
-  else:
-    thong_ke[hour] = 1
+
+  # Cách 1: dùng hàm get() có gán = 0 nếu ko tìm thấy
+  thong_ke[hour] = thong_ke.get(hour, 0) + 1
+
+  # Cách 2 viết rõ
+  # if hour in thong_ke:
+  #   thong_ke[hour] += 1
+  # else:
+  #   thong_ke[hour] = 1
 
 print(khung_gio)
 print(thong_ke)
