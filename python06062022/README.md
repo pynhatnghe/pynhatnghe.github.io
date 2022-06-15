@@ -8,3 +8,5 @@
 * Cấu trúc rẽ nhánh (tt)
 * Cấu trúc lặp
 * Chuỗi
+
+# Buổi 05 (15/06/2022) - Hàm
