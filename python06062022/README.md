@@ -9,4 +9,8 @@
 * Cấu trúc lặp
 * Chuỗi
 
-# Buổi 05 (15/06/2022) - Hàm
+# Buổi 05 (15/06/2022) - Hàm, module, package
+
+# Buổi 06 (17/06/2022)
+* Date, DateTime, Calendar
+* https://docs.python.org/3/library/datetime.html[https://docs.python.org/3/library/datetime.html]
