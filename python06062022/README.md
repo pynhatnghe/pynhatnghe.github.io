@@ -16,12 +16,16 @@
 * https://docs.python.org/3/library/datetime.html[https://docs.python.org/3/library/datetime.html]
 
 * Virtual Environment[https://docs.python.org/3/tutorial/venv.html]
-* a/ Tạo environment
-  * python -m venv <thu_muc_chua_env>
-    * Ví dụ: python -m venv venv
-* b/ Start environment
-  * Windows: <thu_muc_chua_env>\Scripts\activate
-    * Terminal: Chạy trước Set-ExecutionPolicy Unrestricted -Scope Process
-    * PowerShell: <thu_muc_chua_env>\Scripts\activate.ps1
-  * Linux: ./<thu_muc_chua_env>/bin/activate
-* c/ Stop: deactivate
+  * a/ Tạo environment
+    * python -m venv <thu_muc_chua_env>
+      * Ví dụ: python -m venv venv
+  * b/ Start environment
+    * Windows: <thu_muc_chua_env>\Scripts\activate
+      * Terminal: Chạy trước Set-ExecutionPolicy Unrestricted -Scope Process
+      * PowerShell: <thu_muc_chua_env>\Scripts\activate.ps1
+    * Linux: ./<thu_muc_chua_env>/bin/activate
+  * c/ Stop: deactivate
+
+* Làm việc với file text
+
+# Buồi 07 (20/06/2022): JSON
