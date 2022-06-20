@@ -8,7 +8,7 @@ class hinh_chu_nhat:
     rong = 0
 
     # Contructors (hàm tạo/dựng)
-    def __int__(self, p_dai = 1, p_rong = 1):
+    def __init__(self, p_dai=1, p_rong=1):
         self.dai = p_dai
         self.rong = p_rong
 
