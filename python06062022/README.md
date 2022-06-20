@@ -31,3 +31,4 @@
 # Buồi 07 (20/06/2022):
 * Làm việc với JSON (dict <--> JSON)
 * Thư viện Request
+* OOP
