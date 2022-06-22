@@ -25,3 +25,19 @@ class SqliteUtil:
                 return False
         else:
             return False
+
+    @staticmethod
+    def query(sql_query_command):
+        conn = SqliteUtil.create_connection()
+        if conn:
+            try:
+                cur = conn.cursor()
+                cur.execute(sql_query_command)
+                data = cur.fetchall()
+                conn.close()
+                return data
+            except Exception as ex:
+                print(ex)
+                return None
+        else:
+            return None
