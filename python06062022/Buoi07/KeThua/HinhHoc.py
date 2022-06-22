@@ -11,6 +11,10 @@ class HinhHoc:
         return "HinhHoc class"
 
 class HinhChuNhat(HinhHoc):
+    @staticmethod
+    def demo():
+        print("STATIC")
+
     def __init__(self, d = 1, r = 1):
         self.dai = d
         self.rong = r

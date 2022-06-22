@@ -1,0 +1,322 @@
+[
+    {
+        "SolrID": "/tien-giang",
+        "ID": 1,
+        "Title": "Ti\u1ec1n Giang"
+    },
+    {
+        "SolrID": "/hung-yen",
+        "ID": 2,
+        "Title": "H\u01b0ng Y\u00ean"
+    },
+    {
+        "SolrID": "/ha-noi",
+        "ID": 3,
+        "Title": "H\u00e0 N\u1ed9i"
+    },
+    {
+        "SolrID": "/tp-ho-chi-minh",
+        "ID": 4,
+        "Title": "TP H\u1ed3 Ch\u00ed Minh"
+    },
+    {
+        "SolrID": "/ca-mau",
+        "ID": 5,
+        "Title": "C\u00e0 Mau"
+    },
+    {
+        "SolrID": "/dac-lac",
+        "ID": 6,
+        "Title": "\u0110\u1eafc L\u1eafc"
+    },
+    {
+        "SolrID": "/nam-dinh",
+        "ID": 7,
+        "Title": "Nam \u0110\u1ecbnh"
+    },
+    {
+        "SolrID": "/quang-ninh",
+        "ID": 8,
+        "Title": "Qu\u1ea3ng Ninh"
+    },
+    {
+        "SolrID": "/dak-nong",
+        "ID": 9,
+        "Title": "\u0110\u1eafk N\u00f4ng"
+    },
+    {
+        "SolrID": "/da-nang",
+        "ID": 10,
+        "Title": "\u0110\u00e0 N\u1eb5ng"
+    },
+    {
+        "SolrID": "/hai-duong",
+        "ID": 11,
+        "Title": "H\u1ea3i D\u01b0\u01a1ng"
+    },
+    {
+        "SolrID": "/long-an",
+        "ID": 12,
+        "Title": "Long An"
+    },
+    {
+        "SolrID": "/ben-tre",
+        "ID": 13,
+        "Title": "B\u1ebfn Tre"
+    },
+    {
+        "SolrID": "/dong-thap",
+        "ID": 14,
+        "Title": "\u0110\u1ed3ng Th\u00e1p"
+    },
+    {
+        "SolrID": "/vinh-long",
+        "ID": 15,
+        "Title": "V\u0129nh Long"
+    },
+    {
+        "SolrID": "/kien-giang",
+        "ID": 16,
+        "Title": "Ki\u00ean Giang"
+    },
+    {
+        "SolrID": "/tra-vinh",
+        "ID": 17,
+        "Title": "Tr\u00e0 Vinh"
+    },
+    {
+        "SolrID": "/soc-trang",
+        "ID": 18,
+        "Title": "S\u00f3c Tr\u0103ng"
+    },
+    {
+        "SolrID": "/bac-ninh",
+        "ID": 19,
+        "Title": "B\u1eafc Ninh"
+    },
+    {
+        "SolrID": "/thanh-hoa",
+        "ID": 20,
+        "Title": "Thanh Ho\u00e1"
+    },
+    {
+        "SolrID": "/vung-tau",
+        "ID": 21,
+        "Title": "V\u0169ng T\u00e0u"
+    },
+    {
+        "SolrID": "/dong-nai",
+        "ID": 22,
+        "Title": "\u0110\u1ed3ng Nai"
+    },
+    {
+        "SolrID": "/binh-duong",
+        "ID": 23,
+        "Title": "B\u00ecnh D\u01b0\u01a1ng"
+    },
+    {
+        "SolrID": "/thai-nguyen",
+        "ID": 24,
+        "Title": "Th\u00e1i Nguy\u00ean"
+    },
+    {
+        "SolrID": "/thai-binh",
+        "ID": 25,
+        "Title": "Th\u00e1i B\u00ecnh"
+    },
+    {
+        "SolrID": "/can-tho",
+        "ID": 26,
+        "Title": "C\u1ea7n Th\u01a1"
+    },
+    {
+        "SolrID": "/nghe-an",
+        "ID": 27,
+        "Title": "Ngh\u1ec7 An"
+    },
+    {
+        "SolrID": "/hue",
+        "ID": 28,
+        "Title": "Hu\u1ebf"
+    },
+    {
+        "SolrID": "/binh-phuoc",
+        "ID": 29,
+        "Title": "B\u00ecnh Ph\u01b0\u1edbc"
+    },
+    {
+        "SolrID": "/quang-nam",
+        "ID": 30,
+        "Title": "Qu\u1ea3ng Nam"
+    },
+    {
+        "SolrID": "/quang-ngai",
+        "ID": 31,
+        "Title": "Qu\u1ea3ng Ng\u00e3i"
+    },
+    {
+        "SolrID": "/ninh-thuan",
+        "ID": 32,
+        "Title": "Ninh Thu\u1eadn"
+    },
+    {
+        "SolrID": "/lao-cai",
+        "ID": 33,
+        "Title": "L\u00e0o Cai"
+    },
+    {
+        "SolrID": "/hai-phong",
+        "ID": 34,
+        "Title": "H\u1ea3i Ph\u00f2ng"
+    },
+    {
+        "SolrID": "/an-giang",
+        "ID": 35,
+        "Title": "An Giang"
+    },
+    {
+        "SolrID": "/phu-tho",
+        "ID": 36,
+        "Title": "Ph\u00fa Th\u1ecd"
+    },
+    {
+        "SolrID": "/tay-ninh",
+        "ID": 37,
+        "Title": "T\u00e2y Ninh"
+    },
+    {
+        "SolrID": "/khanh-hoa",
+        "ID": 38,
+        "Title": "Kh\u00e1nh H\u00f2a"
+    },
+    {
+        "SolrID": "/phu-yen",
+        "ID": 39,
+        "Title": "Ph\u00fa Y\u00ean"
+    },
+    {
+        "SolrID": "/hoa-binh",
+        "ID": 40,
+        "Title": "H\u00f2a B\u00ecnh"
+    },
+    {
+        "SolrID": "/tuyen-quang",
+        "ID": 41,
+        "Title": "Tuy\u00ean Quang"
+    },
+    {
+        "SolrID": "/lai-chau",
+        "ID": 42,
+        "Title": "Lai Ch\u00e2u"
+    },
+    {
+        "SolrID": "/hau-giang",
+        "ID": 43,
+        "Title": "H\u1eadu Giang"
+    },
+    {
+        "SolrID": "/lam-dong",
+        "ID": 44,
+        "Title": "L\u00e2m \u0110\u1ed3ng"
+    },
+    {
+        "SolrID": "/lang-son",
+        "ID": 45,
+        "Title": "L\u1ea1ng S\u01a1n"
+    },
+    {
+        "SolrID": "/ha-nam",
+        "ID": 46,
+        "Title": "H\u00e0 Nam"
+    },
+    {
+        "SolrID": "/bac-can",
+        "ID": 47,
+        "Title": "B\u1eafc C\u1ea1n"
+    },
+    {
+        "SolrID": "/binh-dinh",
+        "ID": 48,
+        "Title": "B\u00ecnh \u0110\u1ecbnh"
+    },
+    {
+        "SolrID": "/cao-bang",
+        "ID": 49,
+        "Title": "Cao B\u1eb1ng"
+    },
+    {
+        "SolrID": "/son-la",
+        "ID": 50,
+        "Title": "S\u01a1n La"
+    },
+    {
+        "SolrID": "/quang-binh",
+        "ID": 51,
+        "Title": "Qu\u1ea3ng B\u00ecnh"
+    },
+    {
+        "SolrID": "/quang-tri",
+        "ID": 52,
+        "Title": "Qu\u1ea3ng Tr\u1ecb"
+    },
+    {
+        "SolrID": "/gia-lai",
+        "ID": 53,
+        "Title": "Gia Lai"
+    },
+    {
+        "SolrID": "/bac-giang",
+        "ID": 54,
+        "Title": "B\u1eafc Giang"
+    },
+    {
+        "SolrID": "/ha-tinh",
+        "ID": 55,
+        "Title": "H\u00e0 T\u0129nh"
+    },
+    {
+        "SolrID": "/ninh-binh",
+        "ID": 56,
+        "Title": "Ninh B\u00ecnh"
+    },
+    {
+        "SolrID": "/binh-thuan",
+        "ID": 57,
+        "Title": "B\u00ecnh Thu\u1eadn"
+    },
+    {
+        "SolrID": "/kon-tum",
+        "ID": 58,
+        "Title": "Kon Tum"
+    },
+    {
+        "SolrID": "/vinh-phuc",
+        "ID": 59,
+        "Title": "V\u0129nh Ph\u00fac"
+    },
+    {
+        "SolrID": "/bac-lieu",
+        "ID": 60,
+        "Title": "B\u1ea1c Li\u00eau"
+    },
+    {
+        "SolrID": "/yen-bai",
+        "ID": 61,
+        "Title": "Y\u00ean B\u00e1i"
+    },
+    {
+        "SolrID": "/dien-bien",
+        "ID": 62,
+        "Title": "\u0110i\u1ec7n Bi\u00ean"
+    },
+    {
+        "SolrID": "/ha-giang",
+        "ID": 63,
+        "Title": "H\u00e0 Giang"
+    },
+    {
+        "SolrID": "/chua-ro",
+        "ID": 64,
+        "Title": "Ch\u01b0a r\u00f5"
+    }
+]

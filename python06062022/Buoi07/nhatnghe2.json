@@ -1,0 +1,20 @@
+{
+    "hoTen": "Nh\u1ea5t Ngh\u1ec7",
+    "tuoi": 19,
+    "dienThoai": "02839292174",
+    "gioiTinh": true,
+    "khoaHoc": [
+        {
+            "tenMon": "Python",
+            "hocPhi": 2.99
+        },
+        {
+            "tenMon": "ASP.NET Core",
+            "hocPhi": 4.49
+        },
+        {
+            "tenMon": "ReactJS + WebAPI",
+            "hocPhi": 2.49
+        }
+    ]
+}
