@@ -13,3 +13,15 @@ class SqliteUtil:
     @staticmethod
     def execute(sql_command):
         conn = SqliteUtil.create_connection()
+        if conn:
+            try:
+                cur = conn.cursor()
+                cur.execute(sql_command)
+                conn.commit()
+                conn.close()
+                return True
+            except Exception as ex:
+                print(ex)
+                return False
+        else:
+            return False
