@@ -32,3 +32,6 @@
 * Làm việc với JSON (dict <--> JSON)
 * Thư viện Request
 * OOP
+
+# Buổi 08 (22/06/2022): SQLite
+* https://www.sqlitetutorial.net/
