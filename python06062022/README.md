@@ -34,4 +34,8 @@
 * OOP
 
 # Buổi 08 (22/06/2022): SQLite
-* https://www.sqlitetutorial.net/
+* https://www.sqlitetutorial.net
+
+# Buổi 09 (29/06/2022): Tkinter
+* https://www.pythontutorial.net/tkinter/
+* https://realpython.com/python-gui-tkinter/
