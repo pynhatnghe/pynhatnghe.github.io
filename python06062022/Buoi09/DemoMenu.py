@@ -15,7 +15,7 @@ file_menu.add_command(label='Exit',command=root.destroy)
 menu_bar.add_cascade(label="File",menu=file_menu)
 
 mnu_tool = Menu(menu_bar, tearoff=0)
-mnu_tool.add_command("About")
+mnu_tool.add_command(label="About")
 menu_bar.add_cascade(label="Tools",menu=mnu_tool)
 ###############/End Thêm menu item + xử lý*************
 
