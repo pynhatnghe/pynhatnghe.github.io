@@ -3,7 +3,7 @@ import time
 
 
 root = Tk()
-root.geometry("600x400")
+root.geometry("600x200")
 
 def clock():
     hour = time.strftime("%I")
