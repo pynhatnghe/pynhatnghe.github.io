@@ -24,7 +24,8 @@ menu_bar.add_cascade(label="Tools",menu=mnu_tool)
 # Nhúng (add) menubnar vào màn hình chính
 root.config(menu=menu_bar)
 
-ttk.Label(text="Chọn tháng").pack()
+# ttk.Label(text="Chọn tháng").pack()
+Label(root, text="Chọn tháng").pack()
 # Combobox
 thang_chon = StringVar()
 cbo_thang = ttk.Combobox(root, textvariable=thang_chon)
