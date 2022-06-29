@@ -20,15 +20,16 @@ ttk.Entry(root, textvariable=username)\
 ttk.Entry(root, textvariable=password, show="*")\
     .grid(column=1, row=1)
 
-def handle_login(title_bar):
+def handle_login(title_bar, user):
     messagebox.showinfo(title_bar,
-    f"Bạn nhập:\nUsername:{username.get()}"
+    f"Bạn nhập:\nUsername:{user.get()}"
     + f"\nPassword: {password.get()}")
 
 from functools import partial
 process_login = partial(
     handle_login,
-    title_bar="PYTHON ABC"
+    title_bar="PYTHON ABC",
+    user = username
 )
 ttk.Button(root, text="LOGIN", command=process_login)\
     .grid(column=1, row=2, sticky=E)
