@@ -9,7 +9,7 @@ root.title("CALCULATOR")
 root.geometry(f"{WIDTH}x{HEIGHT}")
 root.resizable(False, False)
 
-expression = ""
+expression = "0"
 ############# Định nghĩa hám xử lý$$$$$$$$$$
 def click_number(item):
     global expression
@@ -22,13 +22,18 @@ def click_number(item):
 
 def click_clear():
     global expression
-    expression = ""
+    expression = "0"
     input_text.set(expression)
 
 def click_back():
     global expression
-    expression = expression[:-1]
+    # expression = expression[:-1]
+    # if expression == "":
+    #     expression = "0"
+    expression = expression[:-1] if len(expression) > 1 else "0"
     input_text.set(expression)
+
+
 #############$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 # Tạo frame (vùng) để nhập liệu & hiển thị
@@ -38,7 +43,7 @@ input_frame = Frame(root, width=WIDTH, height=ITEM_HEIGHT,
 input_frame.pack()
 
 # Thêm thẻ input bên trong khung
-input_text = StringVar()
+input_text = StringVar(value=expression)
 input_field = Entry(
     input_frame, font="Arial 18 bold",
     textvariable=input_text,
