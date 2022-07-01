@@ -1,7 +1,10 @@
 from tkinter import *
+from functools import partial
+from ManHinhThemLoai import mo_man_hinh_them_loai
 
 root = Tk()
 root.title("Quản lý Hàng hóa")
+root.geometry("300x150")
 
 # Khai báo menu bar
 menu_bar = Menu(root)
@@ -9,7 +12,10 @@ menu_bar = Menu(root)
 ###############Thêm menu item + xử lý*************
 mnu_loai = Menu(menu_bar, tearoff=False)
 mnu_loai.add_command(label='Danh sách')
-mnu_loai.add_command(label='Thêm mới Loại')
+mnu_loai.add_command(
+    label='Thêm mới Loại',
+    command=partial(mo_man_hinh_them_loai, root)
+)
 mnu_loai.add_separator()
 mnu_loai.add_command(label='Exit',command=root.destroy)
 
