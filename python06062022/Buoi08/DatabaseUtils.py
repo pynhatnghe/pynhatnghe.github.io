@@ -41,3 +41,20 @@ class SqliteUtil:
                 return None
         else:
             return None
+
+	@staticmethod
+    def insert_and_get_lasted_id(sql_statetement):
+		conn = SqliteUtil.create_connection()
+		if conn:
+            try:
+                cur = conn.cursor()
+                cur.execute(sql_query_command)
+				conn.commit()
+                lastid = cursor.lastrowid
+                conn.close()
+                return lastid
+            except Exception as ex:
+                print(ex)
+                return None
+        else:
+            return None
