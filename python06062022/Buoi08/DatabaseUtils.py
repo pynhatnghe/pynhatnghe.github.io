@@ -1,6 +1,8 @@
 import sqlite3
 
 DB_FILE = "MySqlite3.db"
+
+
 class SqliteUtil:
     @staticmethod
     def create_connection():
@@ -42,15 +44,15 @@ class SqliteUtil:
         else:
             return None
 
-	@staticmethod
+    @staticmethod
     def insert_and_get_lasted_id(sql_statetement):
-		conn = SqliteUtil.create_connection()
-		if conn:
+        conn = SqliteUtil.create_connection()
+        if conn:
             try:
                 cur = conn.cursor()
-                cur.execute(sql_query_command)
-				conn.commit()
-                lastid = cursor.lastrowid
+                cur.execute(sql_statetement)
+                conn.commit()
+                lastid = cur.lastrowid
                 conn.close()
                 return lastid
             except Exception as ex:
