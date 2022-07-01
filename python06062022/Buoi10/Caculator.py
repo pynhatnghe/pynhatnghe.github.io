@@ -9,6 +9,16 @@ root.title("CALCULATOR")
 root.geometry(f"{WIDTH}x{HEIGHT}")
 root.resizable(False, False)
 
+expression = ""
+############# Định nghĩa hám xử lý$$$$$$$$$$
+def click_number(item):
+    global expression
+    expression += str(item)
+    input_text.set(expression)
+
+
+#############$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
 # Tạo frame (vùng) để nhập liệu & hiển thị
 input_frame = Frame(root, width=WIDTH, height=ITEM_HEIGHT,
     highlightbackground="black", highlightcolor="black",
@@ -37,12 +47,18 @@ back = Button(button_frame, text="<--", height=3, width=20).grid(
  row=0, column=2, columnspan=2, padx=1, pady=1)
 
 # Row 1: 7,8,9, /
-so7 = Button(button_frame, text="7", width=9, height=3).grid(
- row=1, column=0, padx=1, pady=1)
-so8 = Button(button_frame, text="8", width=9, height=3).grid(
- row=1, column=1, padx=1, pady=1)
-so8 = Button(button_frame, text="9", width=9, height=3).grid(
- row=1, column=2, padx=1, pady=1)
+so7 = Button(
+    button_frame, text="7", width=9, height=3,
+    command=lambda: click_number(7)
+).grid(row=1, column=0, padx=1, pady=1)
+so8 = Button(
+    button_frame, text="8", width=9, height=3,
+    command=lambda: click_number(8)
+).grid(row=1, column=1, padx=1, pady=1)
+so9 = Button(
+    button_frame, text="9", width=9, height=3,
+    command=lambda: click_number(9)
+).grid(row=1, column=2, padx=1, pady=1)
 chia = Button(button_frame, text="/", width=9, height=3).grid(
  row=1, column=3, padx=1, pady=1)
 
