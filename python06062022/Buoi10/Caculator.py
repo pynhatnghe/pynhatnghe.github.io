@@ -2,7 +2,7 @@ from tkinter import *
 
 root = Tk()
 WIDTH = 300
-HEIGHT = 345
+HEIGHT = 325
 ITEM_HEIGHT = 50
 
 root.title("CALCULATOR")
@@ -24,5 +24,10 @@ input_field = Entry(
 input_field.grid(row=0, column=0)
 input_field.pack(ipady=10, ipadx=5) # internal padding y
 
+# Tạo frame bao chứa các button bên dưới
+button_frame = Frame(root, width=WIDTH, height=275, bd=0,
+    highlightbackground="black", highlightcolor="black",
+    highlightthickness=2)
+button_frame.pack(side=TOP)
 
 root.mainloop()
