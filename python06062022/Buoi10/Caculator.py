@@ -10,6 +10,8 @@ root.geometry(f"{WIDTH}x{HEIGHT}")
 root.resizable(False, False)
 
 expression = "0"
+so_hang = ""
+phep_toan = ""
 ############# Định nghĩa hám xử lý$$$$$$$$$$
 def click_number(item):
     global expression
@@ -23,6 +25,29 @@ def click_number(item):
 def click_clear():
     global expression
     expression = "0"
+    so_hang = ""
+    phep_toan = ""
+    input_text.set(expression)
+
+def click_phep_toan(toan_tu):
+    global expression
+    global so_hang
+    global phep_toan
+    so_hang = expression
+    phep_toan = toan_tu
+    expression = "0"
+    input_text.set(expression)
+
+def click_bang():
+    global expression
+    global so_hang
+    global phep_toan
+    bieu_thuc = so_hang + phep_toan + expression
+    print(bieu_thuc)
+    ket_qua = eval(bieu_thuc)
+    so_hang = ""
+    phep_toan = ""
+    expression = str(ket_qua)
     input_text.set(expression)
 
 def click_back():
@@ -33,7 +58,11 @@ def click_back():
     expression = expression[:-1] if len(expression) > 1 else "0"
     input_text.set(expression)
 
-
+def click_dot():
+    global expression
+    if "." not in expression:
+        expression += "."
+    input_text.set(expression)
 #############$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 # Tạo frame (vùng) để nhập liệu & hiển thị
@@ -80,8 +109,10 @@ so9 = Button(
     button_frame, text="9", width=9, height=3,
     command=lambda: click_number(9)
 ).grid(row=1, column=2, padx=1, pady=1)
-chia = Button(button_frame, text="/", width=9, height=3).grid(
- row=1, column=3, padx=1, pady=1)
+chia = Button(
+    button_frame, text="/", width=9, height=3,
+    command=lambda :click_phep_toan("/")
+).grid(row=1, column=3, padx=1, pady=1)
 
 # Row 2: 4, 5, 6, *
 so4 = Button(
@@ -96,8 +127,10 @@ so6 = Button(
     button_frame, text="6", width=9, height=3,
     command=lambda: click_number(6)
 ).grid(row=2, column=2, padx=1, pady=1)
-nhan = Button(button_frame, text="*", width=9, height=3).grid(
- row=2, column=3, padx=1, pady=1)
+nhan = Button(
+    button_frame, text="*", width=9, height=3,
+    command=lambda :click_phep_toan("*")
+).grid(row=2, column=3, padx=1, pady=1)
 
 # Row 3: 1, 2, 3, -
 so1 = Button(
@@ -112,19 +145,27 @@ so3 = Button(
     button_frame, text="3", width=9, height=3,
     command=lambda: click_number(3)
 ).grid(row=3, column=2, padx=1, pady=1)
-tru = Button(button_frame, text="-", width=9, height=3).grid(
- row=3, column=3, padx=1, pady=1)
+tru = Button(
+    button_frame, text="-", width=9, height=3,
+    command=lambda :click_phep_toan("-")
+).grid(row=3, column=3, padx=1, pady=1)
 
 # Row 4: 0, ., =, +
 so0 = Button(
     button_frame, text="0", width=9, height=3,
     command=lambda: click_number(0)
 ).grid(row=4, column=0, padx=1, pady=1)
-cham = Button(button_frame, text=".", width=9, height=3).grid(
- row=4, column=1, padx=1, pady=1)
-bang = Button(button_frame, text="=", width=9, height=3).grid(
- row=4, column=2, padx=1, pady=1)
-cong = Button(button_frame, text="+", width=9, height=3).grid(
- row=4, column=3, padx=1, pady=1)
+cham = Button(
+    button_frame, text=".", width=9, height=3,
+    command=click_dot
+).grid(row=4, column=1, padx=1, pady=1)
+bang = Button(
+    button_frame, text="=", width=9, height=3,
+    command=click_bang
+).grid(row=4, column=2, padx=1, pady=1)
+cong = Button(
+    button_frame, text="+", width=9, height=3,
+    command=lambda :click_phep_toan("+")
+).grid(row=4, column=3, padx=1, pady=1)
 
 root.mainloop()
