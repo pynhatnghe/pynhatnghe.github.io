@@ -2,7 +2,7 @@ from tkinter import *
 
 root = Tk()
 WIDTH = 300
-HEIGHT = 325
+HEIGHT = 345
 ITEM_HEIGHT = 50
 
 root.title("CALCULATOR")
@@ -29,5 +29,51 @@ button_frame = Frame(root, width=WIDTH, height=275, bd=0,
     highlightbackground="black", highlightcolor="black",
     highlightthickness=2)
 button_frame.pack(side=TOP)
+
+# Dòng 0: Nút CLEAR, BACK
+clear = Button(button_frame, text="Clear", height=3, width=20).grid(
+ row=0, column=0, columnspan=2, padx=1, pady=1)
+back = Button(button_frame, text="<--", height=3, width=20).grid(
+ row=0, column=2, columnspan=2, padx=1, pady=1)
+
+# Row 1: 7,8,9, /
+so7 = Button(button_frame, text="7", width=9, height=3).grid(
+ row=1, column=0, padx=1, pady=1)
+so8 = Button(button_frame, text="8", width=9, height=3).grid(
+ row=1, column=1, padx=1, pady=1)
+so8 = Button(button_frame, text="9", width=9, height=3).grid(
+ row=1, column=2, padx=1, pady=1)
+chia = Button(button_frame, text="/", width=9, height=3).grid(
+ row=1, column=3, padx=1, pady=1)
+
+# Row 2: 4, 5, 6, *
+so4 = Button(button_frame, text="4", width=9, height=3).grid(
+ row=2, column=0, padx=1, pady=1)
+so5 = Button(button_frame, text="5", width=9, height=3).grid(
+ row=2, column=1, padx=1, pady=1)
+so6 = Button(button_frame, text="6", width=9, height=3).grid(
+ row=2, column=2, padx=1, pady=1)
+nhan = Button(button_frame, text="*", width=9, height=3).grid(
+ row=2, column=3, padx=1, pady=1)
+
+# Row 3: 1, 2, 3, -
+so1 = Button(button_frame, text="1", width=9, height=3).grid(
+ row=3, column=0, padx=1, pady=1)
+so2 = Button(button_frame, text="2", width=9, height=3).grid(
+ row=3, column=1, padx=1, pady=1)
+so3 = Button(button_frame, text="3", width=9, height=3).grid(
+ row=3, column=2, padx=1, pady=1)
+tru = Button(button_frame, text="-", width=9, height=3).grid(
+ row=3, column=3, padx=1, pady=1)
+
+# Row 4: 0, ., =, +
+so0 = Button(button_frame, text="0", width=9, height=3).grid(
+ row=4, column=0, padx=1, pady=1)
+cham = Button(button_frame, text=".", width=9, height=3).grid(
+ row=4, column=1, padx=1, pady=1)
+bang = Button(button_frame, text="=", width=9, height=3).grid(
+ row=4, column=2, padx=1, pady=1)
+cong = Button(button_frame, text="+", width=9, height=3).grid(
+ row=4, column=3, padx=1, pady=1)
 
 root.mainloop()
