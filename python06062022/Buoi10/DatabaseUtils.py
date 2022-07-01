@@ -1,6 +1,6 @@
 import sqlite3
 
-DB_FILE = "MySqlite3.db"
+DB_FILE = "QLBanHang.db"
 
 
 class SqliteUtil:

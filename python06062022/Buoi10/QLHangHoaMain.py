@@ -1,6 +1,28 @@
 from tkinter import *
 from functools import partial
 from ManHinhThemLoai import mo_man_hinh_them_loai
+from DatabaseUtils import SqliteUtil
+
+# Tạo 2 table
+sql_create_table_loai = """
+     CREATE TABLE Loai(
+     MaLoai integer PRIMARY KEY AUTOINCREMENT,
+     TenLoai varchar(40)
+ )
+ """
+sql_create_table_hang_hoa = """
+CREATE TABLE HangHoa(
+     MaHH char(6) PRIMARY KEY,
+     TenHH varchar(40),
+     MoTa varchar(55),
+     DonGia decimal(10,2),
+     SKU varchar(15) NULL,
+     MaLoai integer NULL,
+     FOREIGN KEY (MaLoai) REFERENCES Loai(MaLoai)
+ )
+ """
+SqliteUtil.execute(sql_create_table_loai)
+SqliteUtil.execute(sql_create_table_hang_hoa)
 
 root = Tk()
 root.title("Quản lý Hàng hóa")
