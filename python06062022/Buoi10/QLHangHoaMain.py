@@ -14,7 +14,8 @@ mnu_loai = Menu(menu_bar, tearoff=False)
 mnu_loai.add_command(label='Danh sách')
 mnu_loai.add_command(
     label='Thêm mới Loại',
-    command=partial(mo_man_hinh_them_loai, root)
+    # command=partial(mo_man_hinh_them_loai, root)
+    command= lambda: mo_man_hinh_them_loai(root)
 )
 mnu_loai.add_separator()
 mnu_loai.add_command(label='Exit',command=root.destroy)
