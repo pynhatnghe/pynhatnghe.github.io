@@ -1,5 +1,15 @@
 import os
 from pathlib import Path
+from sys import platform
+
+print(platform) # Lấy hệ điều hành
+
+# Chạy lệnh liệt kê tập tin thư mục
+if platform == 'win32':
+    print(os.system("dir"))
+elif platform == 'linux':
+    print(os.system("ll"))
+
 
 curr_dir = os.getcwd()
 print('Thư mục đang đứng', curr_dir)
