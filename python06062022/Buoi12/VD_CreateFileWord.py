@@ -24,3 +24,11 @@ cells[2].text = "Số điện thoại"
 
 # Save xuống
 document.save("DemoWord.docx")
+
+# Convert to DOCX to PDF
+from docx2pdf import convert
+import os
+
+pdf_file = os.path.join(os.getcwd(), "DemoPDF.pdf")
+print(pdf_file)
+convert("DemoWord.docx", pdf_file)
