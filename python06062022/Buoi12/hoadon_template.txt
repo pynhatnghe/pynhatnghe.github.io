@@ -1,0 +1,10 @@
+            HÓA ĐƠN BÁN HÀNG
+- Họ tên khách hàng: {{ data.ho_ten}}.
+- Giới tính:{% if data.gioi_tinh %}Nam{% else %}Nữ{% endif %}
+- Số ĐT: {{ data.phone}}
+Số tiền trả: {{ data.tong_tien}}.
+        DANH SÁCH HÀNG HÓA ĐÃ MUA
+{% for hanghoa in data.hang_hoa_mua %}
+    {{ hanghoa.ten}}" {{ hanghoa.gia }} x {{hanghoa.soluong}}
+{% endfor %}
+Cảm ơn quý khách đã mua hàng./.

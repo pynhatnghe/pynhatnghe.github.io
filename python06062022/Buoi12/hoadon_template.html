@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+            <h1>HÓA ĐƠN BÁN HÀNG</h1>
+- Họ tên khách hàng: {{ data.ho_ten}}.<br/>
+- Giới tính:{% if data.gioi_tinh %}Nam{% else %}Nữ{% endif %}
+<br/>
+- Số ĐT: {{ data.phone}}
+<br/>
+Số tiền trả: {{ data.tong_tien}}.
+<table>
+  <tr>
+    <th>Tên</th>
+    <th>Giá</th>
+    <th>Số lượng</th>
+    <th>Thành tiền</th>
+  </tr>
+{% for hanghoa in data.hang_hoa_mua %}
+  <tr>
+    <td>{{ hanghoa.ten }}</td>
+    <td>{{ hanghoa.gia }}</td>
+    <td>{{ hanghoa.soluong }}</td>
+    <td>{{ hanghoa.gia *  hanghoa.soluong}}</td>
+  </tr>
+{% endfor %}
+
+</table>
+
+</body>
+</html>
+
