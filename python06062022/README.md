@@ -47,3 +47,7 @@
 # Buổi 11 (04/07/2022) Tools
 
 # Buổi 12 (06/07/2022) Report
+
+# Buổi 13 (08/07/2022)
+* Làm việc với Excel file
+* Thư viện Pandas
