@@ -51,3 +51,13 @@
 # Buổi 13 (08/07/2022)
 * Làm việc với Excel file
 * Thư viện Pandas
+
+# Buổi 14 (11/07/2022)
+* Numpy
+* Matplotlib
+
+# Buổi 15 (13/07/2022)
+* Regular Expression
+  * https://www.w3schools.com/python/python_regex.asp
+* Thread/Muiti thread
+* 
