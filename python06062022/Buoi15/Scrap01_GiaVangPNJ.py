@@ -13,6 +13,9 @@ if r.status_code == 200:
     soup = BeautifulSoup(r.text, 'html.parser')
     # print(soup.prettify()) # html format (đẹp)
     # Lấy tất cả thẻ tr của trang
-    result = soup.find_all('tr')
-    for tr_item in result:
-        print(tr_item)
+    result = soup.find_all('td')
+    for td_item in result:
+        # print(td_item)
+        if td_item.get("valign") == "middle" and \
+            td_item.get("align") == "center":
+            print(td_item.text)
