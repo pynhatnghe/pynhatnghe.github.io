@@ -30,7 +30,13 @@ else:
 Kí hiệu:
     ^   đánh dấu bắt đầu bởi
     $   đánh dấu kết thúc
-    *   đại diện cho từ 0 hoặc nhiều kí tự
-    +   đại diện cho từ 1 hoặc nhiều kí tự
-    .   đại diện cho 1 kí tự tùy ý
+    *       đại diện cho từ 0 hoặc nhiều kí tự
+    +       đại diện cho từ 1 hoặc nhiều kí tự
+    ?       0 hoặc 1
+    {x,y}   xuất hiện/lặp từ x đến y lần
+    .   đại diện cho 1 kí tự tùy ý (trừ dấu xuống dòng)
+    []  chọn 1 trong nhóm
+    \   dùng cho kí tự đặc biệt, vd: \s khoảng trắng,
+            \n xuống dòng, \t tab,
+    [^arn]  không bắt đầu bởi hoặc a/hoặc r/hoặc n
 '''
