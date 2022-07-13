@@ -61,3 +61,4 @@
   * https://www.w3schools.com/python/python_regex.asp
 * Thread/Muiti thread
   * https://www.pythontutorial.net/advanced-python/python-threading/
+* Beautifulsoup4
