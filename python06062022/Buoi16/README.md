@@ -19,5 +19,14 @@ pip install "uvicorn[standard]"
 hoặc cài gộp:
 ```pip install fastapi "uvicorn[standard]"```
 
-## Bồ sung thư viện cho upload file
+## Bổ sung thư viện cho upload file
 ```pip install python-multipart```
+
+Export các thư viện đã trong project:
+```pip freeze > requirements.txt```
+
+## Làm sao dựng lại môi trường làm việc
+* Tạo virtual environment
+* Start virtual environment
+* Cài thư viện trong virtual environment đó
+    ```pip install -r requirements.txt```
