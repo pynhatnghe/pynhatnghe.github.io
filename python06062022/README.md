@@ -62,3 +62,6 @@
 * Thread/Muiti thread
   * https://www.pythontutorial.net/advanced-python/python-threading/
 * Beautifulsoup4
+
+# Buổi 16 (15/07/2022)
+* FastAPI
