@@ -65,4 +65,6 @@
 
 # Buổi 16 (15/07/2022)
 * FastAPI
-* 
+
+# Buổi 17 (20/07/2022)
+* FastAPI + MySQL
