@@ -17,3 +17,13 @@
 * Dựng lại các package cho môi trường
   * ```pip install -r requirements.txt```
 
+# 3/ Tổ chức thư mục
+Bai17
+|
+|--venv\              # Môi trường ảo
+|--requirements.txt   # Chứa danh sách các packages
+|--main.py            # File chạy (python main.py)
+|--server\            # Chứa code backend
+   |--__init__.py
+   |---api.py         # File cấu hình FastAPI
+
