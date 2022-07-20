@@ -25,5 +25,5 @@ Bai17
 |--main.py            # File chạy (python main.py)
 |--server\            # Chứa code backend
    |--__init__.py
-   |---api.py         # File cấu hình FastAPI
-
+   |--api.py         # File cấu hình FastAPI
+   |--database_util.py # Cung cấp hàm thay đổi dữ liệu và lấy dữ liệu
