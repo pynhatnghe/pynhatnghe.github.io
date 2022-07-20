@@ -30,3 +30,26 @@ def search_loai(keyword: str):
     data = MySqlUtil.query(sql)
     print(data)
     return data
+
+from pydantic import BaseModel
+class Loai(BaseModel):
+    TenLoai: str
+    Hinh: str
+
+@app.post("/loai", tags=["Category"])
+def insert_loai(model: Loai):
+    sql = f'''
+    INSERT INTO `loai` (`MaLoai`, `TenLoai`, `Hinh`) 
+    VALUES (NULL, '{model.TenLoai}', '{model.Hinh}');
+    '''
+    new_loai_id = MySqlUtil.insert_and_get_lasted_id(sql)
+    if new_loai_id:
+        return {
+            "succes": True,
+            "data": MySqlUtil.query(new_loai_id)
+        }
+    else:
+        return {
+            "success": False,
+            "message": "Thêm loại không thành công"
+        }
